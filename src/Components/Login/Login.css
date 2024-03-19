@@ -1,0 +1,113 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background: url('/src/Components/Assets/bg-image1.jpg');
+    
+    background-size: cover;
+  }
+  .login-form {
+    background: transparent;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 #002D62, 0 4px 30px 0 #002D62;
+  }
+  .title {
+    justify-content: center;
+    color:black;
+    text-align: center;
+    font: bold;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+  }
+  label,p {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  input[type="email"]{
+    color: #161515;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="password"] {
+    color: #161515;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-submit{
+    background: transparent;
+    justify-content: center;
+    
+  }
+  .button{
+    margin-left: 25px;
+    background-color: #002D62;
+  }
+  .button:hover{
+    background: #005c96;
+  }
+  button {
+    display: inline;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    background:#002D62;
+    justify-content: left;
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  .forgotpsd-link {
+      margin-left: 50%;
+      width: fit-content;
+  }
+  .forgotpsd-link  :hover{
+    color: midnightblue;
+  }
+
+  /* .forgotpsd-link Link:hover{
+    color: midnightblue;
+  } */
+  
+  .registr-link Link :hover{
+   color: midnightblue;
+   background: transparent;
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+ 
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+
+ 

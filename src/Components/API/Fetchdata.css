@@ -1,0 +1,128 @@
+.container-api {
+    display: grid;
+    flex-direction: column;
+    margin-left: -5px;
+    
+
+  }
+  
+  .category-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 420px));
+    grid-gap: 0px;
+    font-size:small;
+  }
+  
+  .category-button {
+    padding: 1px;
+    align-items: center;
+    background-color: skyblue;
+    color: #151B54 ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:medium;
+  }
+  
+  .category-button:hover {
+    background-color: #cbecf7;
+  }
+  
+ 
+  
+  .search-container {
+    margin-bottom: 20px;
+    margin-top:15px;
+    block-size: 40px;
+    margin-left: 350px;
+    align-items: center;
+    margin-right: 600px;
+    
+  }
+  .search-icon {
+    position: absolute;
+    right: 780px; /* Adjust as needed */
+    cursor: pointer;
+    margin-top: 10px;
+    color:#504f4f;
+  }
+  
+  
+  
+  .suggestions {
+    margin-top: 2px;
+  }
+  .back{
+    cursor: pointer;
+    font-size: 15px;
+    background: #2196F3;
+    border: 1px solid #123456;
+    color: #123456;
+    padding: 10px 20px;
+    margin-top:-80px;
+    margin-left: 20px;
+    width:100px;
+  
+  }
+  .hh2{
+    margin-left:20px ;
+    color:#151B54;
+  }
+  
+  .suggestion {
+    background-color: white;
+    padding: 5px 10px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:4px;
+    margin-left:40px;
+    background-color:#72A0C1;
+    border: 1px solid #1d3842;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right:550px;
+    width: 220px;
+  }
+  
+  
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4,310px); /* Each row will contain four cards */
+    grid-gap: 4px; /* Spacing between cards */
+    margin-left: 20px;
+  }
+  
+  .card {
+    padding: 2px;
+    background-color: #72A0C1;
+    border: 1px solid#1d3842;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing:2px; /* Include padding and border in the element's total width and height */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    color: black;
+    margin-bottom: 0;
+  }
+
+  .view-btn{
+    cursor: pointer;
+    font-size: 15px;
+    background:  #002D62;
+    border: 1px solid #187ce0;
+    
+    padding: 10px 20px;
+   
+    width:100px;
+  }
+  

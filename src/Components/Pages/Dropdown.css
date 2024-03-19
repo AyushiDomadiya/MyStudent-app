@@ -1,0 +1,147 @@
+.Dropdown {
+    text-align: center;
+}
+
+.Dropdown-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.Dropdown-logo {
+    animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.Dropdown-header {
+    background-color: #4c667d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color:white;
+  }
+  
+  .Dropdown-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Dropdown-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  ul{
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .menu-trigger img{
+    position: absolute;
+    top: 3px;
+    right: -40px;
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .dropdown-menu{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:hsl(107, 17%, 78%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 120px;
+  }
+  
+  .dropdown-menu::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+    background: var(--secondary-bg);
+    transform: rotate(45deg);
+  }
+  .dropdown-menu.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+  }
+  
+  .dropdown-menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+  }
+  
+  h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primary-text-color);
+    line-height: 1.2rem;
+  }
+  
+  h3 span{
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+  }
+  
+  .dropdown-menu ul li{
+    padding: 3px  0;
+    border-top: 1px solid #fff(0, 0, 0, 0.05);
+  }
+  
+  .dropdown-menu ul li:hover a{
+    color:#fff(212, 33, 9);
+    cursor: pointer;
+  }
+  
+  .dropdown-menu ul li:hover img{
+    opacity: 1;
+    cursor: pointer;
+    
+    color: #fff;
+  }
+  
+  .dropdownItem{
+    display: flex;
+    margin: 5px auto;
+  }
+  
+  .dropdownItem img{
+    max-width: 20px;
+    margin-right: 5px;
+    opacity: 0.5;
+    color: #fff;
+    height: 15px;
+    margin-top: 1px;
+    transition: var(--speed);
+  }
+  
+  .dropdownItem a{
+    max-width: 100px;
+    margin-left: 10px;
+    transition: var(--speed);
+  }

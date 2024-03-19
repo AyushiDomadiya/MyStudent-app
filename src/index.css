@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  .containers{
+    display: flex;
+  }
+  main{
+    width: 100%;
+    padding: 20px;
+  }
+  .sidebar{
+    background:#000;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition:all 0.5s;
+  }
+  .top-section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+  }
+  .logo{
+    font-size: 30px;
+  }
+  .bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 60px;
+  }
+  .link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover{
+    background: lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+  }
+  .active{
+    background: lightskyblue;
+    color: #000;
+  }
+  .icons{
+    font-size: 25px;
+    margin-left: 4px;
+  }
+  .link-text{
+    font-size: 20px;
+    margin-left: -2px;
+  }
+  /*Profilr*/
+  .a{
+    background-color: lightskyblue;
+    height: 65px;
+
+}
+.user{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content:left;
+    align-items: normal;
+    margin-left: 1400px;
+    position: relative;
+    
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-right:80px;
+    border-width: 4px;
+    border-radius: 150px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.uii{
+    background-color:white;
+    padding: 4px;
+    width: 52px;
+    display: block;
+    margin-top: 50px;
+    margin-left: -135px;
+    margin-top: 70px;
+    
+    
+}
+.lii{
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    list-style: none;
+    
+}
+.lii:hover{
+    background-color:rgb(222, 219, 219) ;
+    width: 60px;
+    border-radius: 2px;
+}

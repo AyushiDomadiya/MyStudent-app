@@ -1,0 +1,100 @@
+.personal-detail-main{
+    width: 325px;
+    color:black;
+    border-radius: 10px;
+    padding: 40px 40px;
+    height: fit-content;
+    background: transparent;
+    
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 #002D62, 0 4px 30px 0 #002D62;
+    margin-bottom: 15px;
+  }
+  
+  
+  
+  .radio-groupp  {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1px;
+  }
+  
+  .radio-groupp label {
+    margin-top: 5px;
+  }
+  
+  .radio-groupp input {
+    width: 10%;
+    padding: 0;
+  }
+  
+  .personal-detail-main h2{
+      justify-content: center;
+      color:black;
+      text-align: center;
+      font: bold;
+  }
+  
+  .personal-detail-main p{
+    justify-content: center;
+    color:black;
+    text-align: center;
+    font: bold;
+}
+
+  .country-code {
+    width: 30%;
+    margin-right: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  
+  input {
+    width: 300px;
+    margin-left: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px;
+    border-radius: 5px;
+  }
+  
+  .phone_number {
+    color: black;
+    display:flex;
+    width: min-content;
+    margin-top: 5px;
+    border: 1px;
+    border-radius: 10px;
+    margin-left: 15px;
+    
+  }
+  
+  button {
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    outline: auto;
+    border: 1px;
+    background:rgb(98, 133, 249);
+    justify-content: center;
+    text-align: center;
+    margin-left: 67px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+  }
+  
